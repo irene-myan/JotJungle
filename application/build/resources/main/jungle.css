@@ -1,0 +1,15 @@
+.root{
+    -fx-font-family: "sans-serif";
+    jgmain: "#87CCA3";
+    jghover: "#99D4C6";
+    jgfocused: "#88CDBC";
+    jgpressed: "#B3DFD4";
+    jgselected: "#327867";
+    jggreen: "#3E9470";
+    jgbase: "#ECF7EE";
+    jgmenu: "5BBAA3";
+    jgbackground: F0F9F7;
+    jgeditor: D7EFEA;
+    -fx-base: jgbase;
+    -fx-background: jgbackground;
+}

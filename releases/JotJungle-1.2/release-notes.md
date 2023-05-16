@@ -1,0 +1,12 @@
+### v1.2
+- Added Jot Jungle Green Themex
+- Add Tags to front end (Create, Edit, Delete)
+- Display tag + date in note list view
+- Fix bug where note list view / note would not stretch
+- Add save button + save pop up
+- Notes now do not autosave
+- Add web service infrastructure
+- Notes now persist on app closure (plain text)
+- Add search bar / sort UI
+- Add Date and note id to note class
+- Fix bug when clicking on empty note in NoteListView

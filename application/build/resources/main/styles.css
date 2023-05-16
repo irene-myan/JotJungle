@@ -1,0 +1,119 @@
+.button, .toggle-button{
+     -fx-background-color: jgmain;
+     -fx-border-radius:  8px;
+     -fx-border-style:  none;
+     -fx-cursor: hand;
+ }
+
+.editor .list-cell {
+    -fx-background-color: jgeditor;
+}
+
+.editor-area {
+    -fx-background-color: jgeditor;
+}
+
+.menu-bar .menu-button {
+    -fx-background-color: jggreen;
+    -fx-cursor: hand;
+}
+
+.menu-bar .menu-button:hover {
+    -fx-background-color: jgmenu;
+}
+
+.menu-bar .menu-button:pressed {
+    -fx-background-color: jgpressed;
+}
+
+.menu-item:hover, .menu-item:focused {
+    -fx-background-color: jgfocused;
+}
+
+.menu-bar {
+    -fx-background-color: jggreen;
+}
+
+.tool-bar {
+    -fx-background-color: jgbackground;
+    -fx-label-padding: 10px;
+}
+
+.combo-box, .color-picker, .menu-button {
+    -fx-background-color: jgmain;
+}
+
+/*.color-picker, .combo-box, .menu-button {*/
+/*    -fx-min-height: 2.2em;*/
+/*}*/
+
+.button:hover, .toggle-button:hover, .combo-box:hover, .color-picker:hover, .menu-button:hover {
+    -fx-background-color: jghover;
+}
+.button:focused, .toggle-button:focused, .combo-box:focused, .color-picker:focused, .menu-button:focused {
+    -fx-background-color: jgfocused;
+}
+
+.button:pressed, .toggle-button:pressed, .combo-box:pressed, .color-picker:pressed, .menu-button:pressed{
+    -fx-background-color: jgpressed;
+}
+
+.toggle-button:selected, .combo-box:selected, .color-picker:selected, .menu-button:selected {
+    -fx-background-color: jgselected;
+}
+
+.button:disabled, .toggle-button:disabled {
+    -fx-background-color: darkgrey;
+}
+
+.note-title {
+    -fx-background-color: transparent;
+}
+
+.note-title:focused {
+    -fx-background-color: rgba(200,200,200,0.5);
+}
+
+.note-list-view .list-cell {
+    -fx-font-weight: bold;
+    -fx-font-family: 'Arial';
+}
+
+.note-list-view .list-cell:focused {
+    -fx-background-color: jggreen;
+}
+
+.rounded {
+    -fx-background-color: lightblue;
+    -fx-background-radius: 10;
+    -fx-background-insets: -4;
+}
+
+#search-field {
+    -fx-min-width: 250px;
+    -fx-max-width: 600px;
+}
+
+.search-icon {
+    -size: 12px;
+    -color: #4E31AA;
+    -fx-min-height: -size;
+    -fx-min-width: -size;
+    -fx-max-height: -size;
+    -fx-max-width: -size;
+    -fx-background-color: black;
+    -fx-cursor: hand;
+    -fx-background-insets: 0, 0, 0, 0;
+    -fx-background-radius:  0, 0, 0, 0;
+}
+.search-icon:focused {
+    -fx-background-insets: 0, 0, 0, 0;
+    -fx-background-radius:  0, 0, 0, 0;
+}
+
+#search-button {
+    -fx-shape: "M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6 s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0 C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2 s166.4,74.24,166.4,166.4S310.72,384,218.56,384z";
+}
+#delete-button {
+    -fx-shape: "m194.800781 164.769531 128.210938-128.214843c8.34375-8.339844 8.34375-21.824219 0-30.164063-8.339844-8.339844-21.824219-8.339844-30.164063 0l-128.214844 128.214844-128.210937-128.214844c-8.34375-8.339844-21.824219-8.339844-30.164063 0-8.34375 8.339844-8.34375 21.824219 0 30.164063l128.210938 128.214843-128.210938 128.214844c-8.34375 8.339844-8.34375 21.824219 0 30.164063 4.15625 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921875-2.089844 15.082031-6.25l128.210937-128.214844 128.214844 128.214844c4.160156 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921874-2.089844 15.082031-6.25 8.34375-8.339844 8.34375-21.824219 0-30.164063z";
+}

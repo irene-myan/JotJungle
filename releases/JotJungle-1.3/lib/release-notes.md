@@ -1,0 +1,21 @@
+### v1.3
+- Bulleted lists and numbered lists now save in Note
+- Fix bug where hitting cancel on the manage tag dialog would remove all tags
+- Add tooltips for buttons
+- Add margin to note editor
+- Add the ability to filter by tag
+- Fix bug where dates were not saving propely 
+- Add keyboard shortcut for deleting and opening a note
+- Add persistence to tags
+- Add docker container for server + running instructions
+- Support exporting to pdf (except lists and tab after a new line)
+- Streamline save note flow
+- Note persistence (including rich text)
+- Fix error when clicking the x button on tag dialogs
+- Change default font to arial in Note editor
+- Add custom theme support (persists on app close)
+- Add searching for note by title
+- Add sorting notes by create date, edit date, and title
+- Fix error with serializing dates
+- Created column types for each datatype used in storing Notes 
+- Notes now autosave
