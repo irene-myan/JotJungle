@@ -1,13 +1,7 @@
+Irene Martirosyan - i2martirosyan@uwaterloo.ca
 Patrick Telfer – patrick.telfer@uwaterloo.ca
 Stephen Cao - stephen.cao@uwaterloo.ca
-Irene Martirosyan - i2martirosyan@uwaterloo.ca
 Tam Nguyen - tam.nguyen1@uwaterloo.ca
-
-Notes application
-
-Meeting Minutes Document: https://docs.google.com/document/d/1Ub1sXnD50pTw_uqHLoolQujt4VtFR0YLBmMrFj02BZE/edit?usp=sharing
-
-Project Review Document: https://docs.google.com/document/d/1rIK6edRpNIN6eBlyvAhM7okEmxPE5BdHfEJlvc4YliU/edit?usp=sharing
 
 ### How to run the project:
 Run the server first (see below) then open the ``application`` exec in releases/JotJungle-1.3/lib/bin
@@ -16,10 +10,9 @@ Run the server first (see below) then open the ``application`` exec in releases/
     docker build -t docker-spring-boot:docker-server .
     docker run -p 8080:8080 docker-spring-boot:docker-server .
 
-
 ## Release Notes
 
-### V1.0
+### v1.0
 - Menu bar + Shortcuts working for Quit, Minimize, Maximize
 - Window resizing + saving size
 - Console launcher + installer
@@ -27,7 +20,7 @@ Run the server first (see below) then open the ``application`` exec in releases/
 - Basic Note View (HTMLEditor)
 - Create Note
 
-### V1.1
+### v1.1
 - Added rich text support (Gluon Rich Text Library Integration, replaced HTMLEditor)
 - Added Context menu and implemented:
   - Open Note
@@ -89,17 +82,3 @@ icons and images:
 
 sound effects:
 - https://pixabay.com/sound-effects/monkey-scream-6407/
-
-
-Added Jot Jungle Green Theme
-Add Tags to front end (Create, Edit, Delete)
-Display tag + date in note list view
-Fix bug where note list view / note would not stretch
-Add save button + save pop up
-Notes now do not autosave
-Add web service infrastructure
-Notes now persist on app closure (plain text)
-Add search bar / sort UI
-Add Date and note id to note class
-Fix bug when clicking on empty note in NoteListView
-
