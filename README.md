@@ -3,6 +3,11 @@ Patrick Telfer – patrick.telfer@uwaterloo.ca
 Stephen Cao - stephen.cao@uwaterloo.ca
 Tam Nguyen - tam.nguyen1@uwaterloo.ca
 
+## Preview
+<img width="833" alt="Screenshot 2023-05-16 at 3 03 32 AM" src="https://github.com/irene-myan/JotJungle/assets/48896721/a313dc1d-1671-4540-b37a-627a8316a16b">
+<img width="833" alt="Screenshot 2023-05-16 at 3 07 08 AM" src="https://github.com/irene-myan/JotJungle/assets/48896721/83e1a382-8345-4b63-a4e6-cf77bed1a6df">
+
+
 ### How to run the project:
 Run the server first (see below) then open the ``application`` exec in releases/JotJungle-1.3/lib/bin
 
